@@ -148,7 +148,7 @@ canvas_collatz(
 <<echo=FALSE,fig.dim=c(4,4)>>=
 <<CollatzPlot4>>
 @
-\caption{My own Custom COllatz Plot}
+\caption{My Custom Collatz Plot}
 \label{CollatzPlot4}
 \end{center}
 \end{figure}
@@ -159,8 +159,14 @@ canvas_collatz(
   package and use \verb|\citep{}| to add a parenthetical citation to the end of
   the sentence below.
 \textbf{Solution:} We created the generative art in Question 1 using the \texttt{aRtsy}
-package for \texttt{R} \citep{aRtsy: Generative Art with 'ggplot2'}.
+package for \texttt{R} \citep{aRtsy}.
 \end{enumerate}
+
+\vspace{2em}
+
+\begin{tiny}
+\bibliography{bibliography}
+\end{tiny}
 
 \newpage
 
