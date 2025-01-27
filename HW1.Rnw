@@ -199,7 +199,7 @@ package for \texttt{R} \citep{aRtsy}.
   \item Use the which() function to ask which result is 40.\\
 \textbf{Solution:}
 <<script="scriptsize">>=
-(solution<-which(results==40))
+(result.40<-which(results==40))
 @
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -208,13 +208,13 @@ package for \texttt{R} \citep{aRtsy}.
   \item What is the solution? That is, what value of x yields $2^{x+1} +2^{x-1} = 40$?\\
 \textbf{Solution:}
 <<script="scriptsize">>=
-(answer <- x[solution])
+(solution <- x[result.40])
 @
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   % QUESTION 2e
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \item Explain why this approach wouldn't work for something like $3^{x+2} + 5 (3^x) = 84$ where the solution is $x \approx 1.6309$.\\
-\textbf{Solution:} The solution would fail in this case because the answer is not an integer and in order for our current approach to work the answer needs to be an integer as that is what we defined x as earlier. 
+\textbf{Solution:} The solution would fail in this case because the answer is not an integer and in order for our current approach to work the answer needs to be an integer as that is what we defined x as earlier with our sequence. 
 \end{enumerate}
 \end{enumerate}
 
